@@ -1,7 +1,7 @@
 <?php
     $servername='localhost';
     $username='root';
-    $password='viki2003';
+    $password='';
     $dbname = "dashboard";
     $con=mysqli_connect($servername,$username,$password,$dbname);
     if(!$con){
